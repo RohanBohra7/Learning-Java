@@ -21,6 +21,11 @@
             Car mycar=new Car();
             mycar.StartEngine();
             mycar.acceleration();
+
+            //upcasting-compile time binding- run time binding
+            Vehicle obj=new Car();
+            obj.StartEngine();
+        
         }
     }
 
